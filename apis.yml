@@ -1,7 +1,21 @@
 aid: worq
 name: Worq
-description: Worq is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WORQ is Malaysia's largest community-centric coworking space operator, backed by
+  500 Global, offering private offices, dedicated desks, hot desks, virtual offices, meeting
+  rooms, event spaces, and day passes across twelve locations in Greater Kuala Lumpur and
+  Selangor. WORQ publishes no public developer portal or API as of July 2026.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://worq.space/wp-content/themes/salient-child/favicons/favicon-96x96.png
 url: https://raw.githubusercontent.com/api-evangelist/worq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +25,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Coworking
+- Office Space
+- Workspace
+- Real Estate
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +42,22 @@ maintainers:
 common:
 - type: Website
   url: https://worq.space
+- type: Pricing
+  url: https://worq.space/membership/
+- type: Blog
+  url: https://worq.space/blog/
+- type: Support
+  url: https://worq.space/contact-us/
+- type: TermsOfService
+  url: https://worq.space/terms/
+- type: PrivacyPolicy
+  url: https://worq.space/privacy-policy/
+- type: LLMsTxt
+  url: llms/worq-llms.txt
+- type: DomainSecurity
+  url: security/worq-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
