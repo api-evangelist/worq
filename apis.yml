@@ -4,6 +4,17 @@ description: WORQ is Malaysia's largest community-centric coworking space operat
   500 Global, offering private offices, dedicated desks, hot desks, virtual offices, meeting
   rooms, event spaces, and day passes across twelve locations in Greater Kuala Lumpur and
   Selangor. WORQ publishes no public developer portal or API as of July 2026.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
